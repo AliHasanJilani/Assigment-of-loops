@@ -82,8 +82,18 @@ a=0
 for i in range(2,num):
   if num%i==0:
     a=1
-    break
+    break 
 if a==1:
   print("not prime")
 else:
   print("prime",num)
+    n = int(input("Enter a number: "))
+i = 1
+while i <= n:
+    print(i)
+    i += 1
+
+alphabets = 'a'
+while alphabets <= 'z':
+    print(alphabets)
+    alphabets = chr(ord(alphabets) + 1)
