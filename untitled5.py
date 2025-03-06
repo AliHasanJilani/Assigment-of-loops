@@ -96,4 +96,5 @@ while i <= n:
 alphabets = 'a'
 while alphabets <= 'z':
     print(alphabets)
-    alphabets = chr(ord(alphabets) + 1)
+    alphabets = chr(ord(alphabets) + 1) -1
+    
